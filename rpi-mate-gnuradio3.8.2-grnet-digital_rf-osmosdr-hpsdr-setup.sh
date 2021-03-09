@@ -113,7 +113,7 @@ cmake ..
 #Compile the digital_rf files
 make -j 3
 
-#Install the compiled digital_rf files
+#Install the compiled digital_rf source block
 sudo make install ||
   { echo 'Unable to install digital_rf'; exit 1; }
 
@@ -139,7 +139,7 @@ mkdir -p ~/src/GNURadio/gr-osmosdr/build && cd ~/src/GNURadio/gr-osmosdr/build
 #Configure the Makefile for the gr-osmosdr source block compile
 cmake .. 
 
-#Compile and install gr-osmosdr
+#Compile and install the gr-osmosdr 3.8 source block
 make && sudo make install ||
   { echo 'Unable to install gr-osmosdr'; exit 1; }
  
