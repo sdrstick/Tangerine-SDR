@@ -1,5 +1,5 @@
 #!/bin/sh
-#install GNU Radio w/grnet w/digital rf w/Osmocom w/HPSDR
+#install GNU Radio(3.8.2) w/grnet w/digital rf w/Osmocom w/HPSDR
 #N4XWE 2-25-2021
 #Test Compiled on Ubuntu Mate 20.10 for the Raspberry Pi 32-bit
 
@@ -21,7 +21,7 @@ libgle3 tix python3-tk-dbg libboost-tools-dev libhdf5-dev python3-pkgconfig \
 python3-dev python3-dateutil python3-tz python3-six python3-pandas python3-watchdog ||
 	{ echo 'Dependency installation failed'; exit 1;}
 	
-#If your RPi has less than 4GB of RAM add and enable a 2GB Swapfile
+#If your RPi has less than 4GB of RAM add and enable a 2GB Swapfile by removing the "#" symbol from the next four lines
 #sudo fallocate -l 2G /swapfile
 #sudo chmod 600 /swapfile
 #sudo mkswap /swapfile
