@@ -2,7 +2,7 @@
 
 
 
-This Repository contains BASH Scripts developed for the Tangerine-SDR Project
+This Repository contains BASH Scripts that are developed for the Tangerine-SDR Project
 
 The rpi-mate-gnuradio3.8.2-grnet-digital_rf-osmosdr-hpsdr-setup.sh script is specifically designed to install GNU Radio 3.8.2 on the Ubuntu Mate 20.10 32-bit Operating System for the Raspberry Pi.  It also installs the gr-grnet, gr-digital_rf, (slightly limited) gr-osmosdr and gr-hpsdr source and sink blocks. The script has been tested on an 8GB RPi 4. The compile time on a Raspberry Pi 4 is approximately 2 hours and 15 minutes. It may or may not work successfully on other models of the Raspberry Pi or other versions of the Ubuntu Mate Operating System.  Because the compile is lengthy and requires the use of superuser priveleges to do file installs on the system, it may be necessary to enter the root password multiple times during the the running of the script.
 
