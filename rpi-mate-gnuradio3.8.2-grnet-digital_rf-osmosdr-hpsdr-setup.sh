@@ -1,7 +1,7 @@
 #!/bin/sh
 #install GNU Radio(v3.8.5.0-5-g982205bd) w/Python 3.8.10 w/grnet w/digital rf w/Osmocom w/HPSDR
 #N4XWE 3-25-2022
-#Test Compiled on Ubuntu MATE 20.10 for the Raspberry Pi 32-bit and Ubuntu MaATE 20.04 LTS for the Raspberry Pi 64-bit
+#Test Compiled on Ubuntu MATE 20.10 for the Raspberry Pi 32-bit and Ubuntu MATE 20.04 LTS for the Raspberry Pi 64-bit
 
 #Update the apt cache and upgrade the system packages to their latest versions
 sudo apt update && sudo apt upgrade -y
